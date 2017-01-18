@@ -15,9 +15,17 @@ the following functionality:
  * Shows all the minutes in the current chat tab in descending order
  * If no chat tab is open it shows a static message
  
-*External Library Requirements*
+###External Library Requirements
 * *pyflock* https://github.com/flockchat/pyflock
 * *webapp2*:
  * pip install WebOb
  * pip install Paste
  * pip install webapp2
+
+###To Launch
+```sudo python flockapp.py```
+
+__Note__
+Current version runs on port 80.
+Side panel functionality neds https access.
+If https or port 80 access to server is a problem, use ngrok to proxy access <https://ngrok.com/>
